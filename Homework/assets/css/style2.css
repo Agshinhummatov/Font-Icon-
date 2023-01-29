@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main-bakcground{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+    height: 550px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #be6e53;
+    box-shadow: 0 8px 16px #be6e53;
+    margin-top: 30px;
+    margin: 30px auto;
+    transition: box-shadow 0.3s ease-in-out;
+    
+}
+
+.icon a i{
+    font-size: 50px;
+    background-color: #be6e53;
+    width: 146px;
+    height: 234px;
+    height: 138px;
+    margin-top: 142px;
+    padding-top: 42px;
+    padding-left: 43px;
+    border-top-right-radius: 44px;
+    border-bottom-left-radius: 44px;
+    margin-left: 123px;
+    color: white;
+    transition: .3s;
+}
+
+.text{
+    margin: 0 auto;
+    padding-top: 39px;
+    height: 122px;
+    width: 153px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-footer{
+
+    margin: 0 auto;
+    height: 116px;
+    width: 277px;
+    text-align: center;
+}
+
+.icon a i:hover{
+    background-color: #854d3a;
+}
+
+
+.main-bakcground:hover{
+    box-shadow: rgba(255, 93, 29, 0.411) 0px 19px 38px, rgb(170, 102, 57) 0px 15px 12px;
+
+}
+
+.main-bakcground::after{
+    box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(252, 0, 0, 0.22) 0px 15px 12px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.main-bakcground::after{
+    opacity: 1;
+}

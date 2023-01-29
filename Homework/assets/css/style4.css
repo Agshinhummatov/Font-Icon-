@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.background {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 550px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #d5063f;
+    box-shadow: 0 8px 16px #db0000;
+    margin-top: 30px;
+    margin: 30px auto;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+
+
+.text-wedding {
+    font-size: 80px;
+    font-family: 'Grey Qo', cursive;
+    transform: rotate(342deg);
+    width: 231px;
+    margin-left: 73px;
+}
+
+.name {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 20px;
+    padding-top: 25px
+    
+   
+}
+
+.join {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 10px;
+    padding-top: 31px;
+}
+
+.time {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    width: 200px;
+    padding-top: 23px;
+    margin: 0 auto;
+}
+
+.address {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 10px;
+    padding-top: 19px;
+}
+
+.footer {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 13px;
+    padding-top: 19px;
+}
+
+.background:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.background::after{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.background:hover::after{
+    opacity: 1;
+}

@@ -1,0 +1,88 @@
+
+.items ul{
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    height: 33px;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 233px;
+    
+    
+}
+
+.items li{
+    margin-left: 10px;
+    font-size: 22px;
+    
+}
+
+.items li a{
+   
+    text-decoration: none;
+    color: white;
+}
+
+
+body{
+    background-image: url(../img/mars1.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.main-text{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    height: 62px;
+    width: 555px;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 300px;
+    padding-top: 162px;
+    padding-left: 376px;
+    padding-right: 476px;
+}
+    
+    
+
+    
+
+.main-text1{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+.icon a i{
+    
+    
+    color: white;
+
+}
+
+
+
+.icon ul{
+
+    list-style: none;
+   
+    margin-right: 30px;
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+
+.main-text2{
+    text-align: center;
+}
+
+

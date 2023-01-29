@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252b42;
+}
+
+.header-background {
+    height: 100px;
+
+
+}
+
+
+.items-background {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 99px;
+
+}
+
+.icon-main {
+
+    margin-right: -48px;
+}
+
+.items-main ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.items-main li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.items-right ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.items-right li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.items-main {
+    margin-right: 146px
+}
+
+.items-right {
+    margin-right: 244px;
+
+
+}
+
+.johin {
+    background-color: #2a80a5;
+    border-radius: 10px;
+    height: 33px;
+    padding: 7px;
+    padding-right: 20px;
+    transition: .3s;
+
+}
+
+.johin:hover {
+    background-color: #1f5d77;
+}
+
+.login {
+    height: 31px;
+    padding: 6px;
+    margin-right: 41px;
+}
+
+.brand-name {
+    color: white;
+    font-size: 20px;
+    margin-left: 133px;
+    margin-right: 16px;
+}
+
+
+.main-background {
+
+    margin-left: 415px;
+    padding-top: 100px;
+    text-align: center;
+    width: 350px;
+}
+
+.welcome {
+    color: aqua;
+}
+
+
+.main-text {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.main-text1 {
+    padding-top: 17px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.icon-main ul {
+    padding-right: 49px;
+    padding-top: 45px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+
+.icon-main li a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.get-quote-now {
+    background-color: #2a80a5;
+    border-radius: 11px;
+    padding: 18px;
+    padding-left: 2px;
+    transition: .3s;
+
+}
+
+.get-quote-now:hover{
+    background-color: #1f5d77;
+}
+
+.learn-more {
+    transition: .3s;
+    border-radius: 11px;
+    border: 2px solid #2a80a5;
+    padding: 18px;
+    padding-left: 2px;
+    margin-left: 20px
+   
+}
+
+
+.learn-more:hover{
+    background-color: #1f5d77;
+}
+
+.footer-background {
+    display: flex;
+    height: 360px;
+    margin-left: -57px;
+    padding-top: 50px;
+}
+
+
+
+.left-background {
+    width: 250px;
+    background-color: white;
+    height: 251px;
+    margin: 31px;
+    margin-left: 272px;
+    padding-top: 28px;
+    padding-left: 35px;
+}
+
+
+
+
+.central-background {
+    width: 250px;
+    background-color: white;
+    height: 251px;
+    margin: 31px;
+    margin-left: -5px;
+    padding-top: 28px;
+    padding-left: 35px;
+
+}
+
+
+.right-background {
+
+    width: 250px;
+    background-color: #2a80a5;
+    height: 251px;
+    margin: 31px;
+    margin-left: -6px;
+    padding-top: 28px;
+    padding-left: 35px;
+
+}
+
+.left-icon {
+    background-color: rgba(189, 92, 92, 0.856);
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+
+.left-icon i {
+    font-size: 20px;
+    padding: 14px;
+    color: red;
+}
+
+
+.left-text-main {
+    padding-top: 20px;
+
+}
+
+.left-text-footer {
+    padding-top: 20px;
+}
+
+.hr {
+    padding-top: 20px;
+    width: 40px;
+    border-bottom: 2px solid red;
+
+}
+
+.central-icon {
+    background-color: #bbeba9;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.central-icon i {
+
+    font-size: 20px;
+    padding: 14px;
+    color: #3aaf42;
+
+}
+
+.central-text-main {
+    padding-top: 20px;
+
+}
+
+.central-text-footer {
+    padding-top: 20px;
+}
+
+.right-icon {
+    background-color: #fafafa;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+
+}
+
+.right-icon i {
+    font-size: 20px;
+    padding: 14px;
+    color: #2a80a5;
+
+}
+
+
+.right-text-main {
+    padding-top: 20px;
+}
+
+.right-text-footer {
+
+    padding-top: 20px;
+}
